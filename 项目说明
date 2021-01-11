@@ -1,0 +1,12 @@
+api_test           --------整个项目目录
+   commmon         --------公共的函数或者类
+       read_excel.py    -----封装读取excel数据，并设置判断执行哪些行数据
+       write_excel.py   -----封装写入excel操作
+       log.py           -----封装日志类，定义日志文件输出格式和日志输出级别
+   testcase        --------测试用例脚本目录
+       api_test.py      -----使用unittest封装执行测试用例
+   test_data       --------存放测试数据excel文件
+       test.xlsx        -----测试数据excel
+    testreport     --------存放测试报告
+        result_2020-08-11-14_52_55.html
+run_testcase.py    ---------执行控制脚本，执行加载的用例并生成HTML可视化报告文件

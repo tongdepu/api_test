@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>API测试报告，测试结果如下：</title>
+    <meta name="generator" content="HTMLTestReportCN 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 100%; }
+table       { font-size: 100%; }
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">API测试报告，测试结果如下：</h1>
+<p class='attribute'><strong>测试人员 : </strong> QA</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-11-17 14:19:29</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.904052</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 6，通过 6，通过率= 100.00%</p>
+
+<p class='description'>用例执行情况：</p>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(4)'>概要{ 100.00% }</a>
+<a class="btn btn-success" href='javascript:showCase(0)'>通过{ 6 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-warning" href='javascript:showCase(2)'>错误{ 0 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 6 }</a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center active" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='success'>
+    <td>api_sheet1.TestAPI</td>
+    <td class="text-center">6</td>
+    <td class="text-center">6</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',6)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_api_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre>
+    
+pt1_1: ======开始执行测试用例======
+{'errCode': '', 'code': 0, 'requestId': '837b2c4292c6c23a', 'msg': 'success', 'data': None}
+接口测试通过
+======测试用例执行完毕======
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_api_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre>
+    
+pt1_2: ======开始执行测试用例======
+添加请求返回的数据为： -1
+{'errCode': '01001', 'code': -1, 'requestId': '411458ca5ccaf1e3', 'msg': "Required String parameter 'bucket' is not present", 'data': None}
+返回失败，接口测试异常 
+======测试用例执行完毕======
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_api_3</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre>
+    
+pt1_3: ======开始执行测试用例======
+得到的原始数据为： {'sysName': '123444啊哈哈哈哈', 'id': '123456', 'sysType': 1, 'sysUrl': 'http://baidu.com', 'sysOrder': '4'}
+得到的新数据为： {'sysName': '123444啊哈哈哈哈', 'id': 400, 'sysType': 1, 'sysUrl': 'http://baidu.com', 'sysOrder': '4'}
+{'errCode': '', 'code': 0, 'requestId': '77d70b584cd112cf', 'msg': 'success', 'data': None}
+接口测试通过
+======测试用例执行完毕======
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_api_4</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>通过</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>通过</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre>
+    
+pt1_4: ======开始执行测试用例======
+得到的原始数据为： {'sysIcon': 'http://hainan-1302387892.cos.ap-guangzhou.myqcloud.com/1599531604711_6.png', 'id': ''}
+得到的新数据为： {'sysIcon': 'http://hainan-1302387892.cos.ap-guangzhou.myqcloud.com/1599531604711_6.png', 'id': 400}
+{'errCode': '', 'code': 0, 'requestId': '0627f8f2df554c3f', 'msg': 'success', 'data': None}
+接口测试通过
+======测试用例执行完毕======
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_api_5</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_5' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_5'>通过</button>
+    <div id='div_pt1_5' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_5' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_5'>通过</button>
+    <div id='div_pt1_5' class="collapse in">
+    <pre>
+    
+pt1_5: ======开始执行测试用例======
+{'errCode': '', 'code': 0, 'requestId': 'bd11c91b2ad4608f', 'msg': 'success', 'data': {'totalCount': 4, 'listData': [{'sysIcon': 'http://hainan-1302387892.cos.ap-guangzhou.myqcloud.com/1599531604711_6.png', 'sysName': '123444啊哈哈哈哈', 'id': 400, 'sysUrl': 'http://baidu.com', 'sysOrder': '4', 'updateTime': '2020-11-17 14:19:34', 'sysType': 1, 'isUpdate': None, 'createTime': '2020-11-17 14:19:34'}, {'sysIcon': 'http://hainan-1302387892.cos.ap-guangzhou.myqcloud.com/1598947677514_%E7%89%A9%E8%81%94%E7%BD%91%E8%BF%90%E8%90%A5%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.png', 'sysName': '物联网运营管理系统', 'id': 261, 'sysUrl': 'http://119.29.156.3:18092/management/iot/home', 'sysOrder': '1', 'updateTime': '2020-09-01 16:07:58', 'sysType': 2, 'isUpdate': None, 'createTime': '2020-08-26 09:51:43'}, {'sysIcon': 'http://hainan-1302387892.cos.ap-guangzhou.myqcloud.com/1598947689211_%E7%89%A9%E8%81%94%E7%BD%91%E8%BF%90%E7%BB%B4%E6%94%AF%E6%92%91%E7%B3%BB%E7%BB%9F.png', 'sysName': '物联网运维支撑系统', 'id': 262, 'sysUrl': 'http://119.29.156.3:18093/support/monOps/rtmonitoring', 'sysOrder': '1', 'updateTime': '2020-09-01 16:08:10', 'sysType': 2, 'isUpdate': None, 'createTime': '2020-08-26 09:53:00'}, {'sysIcon': 'http://hainan-1302387892.cos.ap-guangzhou.myqcloud.com/1598947696540_%E5%88%86%E6%97%B6%E9%A2%84%E7%BA%A6%E5%9B%BE%E6%A0%872.png', 'sysName': '分时预约系统', 'id': 340, 'sysUrl': 'http://139.155.28.195/hnbigdata/index.html', 'sysOrder': '1', 'updateTime': '2020-09-01 16:08:17', 'sysType': 2, 'isUpdate': None, 'createTime': '2020-08-31 14:05:58'}]}}
+接口测试通过
+======测试用例执行完毕======
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_api_6</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_6' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_6'>通过</button>
+    <div id='div_pt1_6' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_6' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_6'>通过</button>
+    <div id='div_pt1_6' class="collapse in">
+    <pre>
+    
+pt1_6: ======开始执行测试用例======
+400
+拼接后的url为： http://119.29.156.3:18091/portal_api/portal/sys/400
+{'errCode': '', 'code': 0, 'requestId': 'a6a0ff70e82e4961', 'msg': 'success', 'data': None}
+接口测试通过
+======测试用例执行完毕======
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center info">
+    <td>总计</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+// 修改按钮颜色显示错误问题 --Findyou v0.8.2.3
+$("button[id^='btn_pt']").addClass("btn btn-success");
+$("button[id^='btn_ft']").addClass("btn btn-danger");
+$("button[id^='btn_et']").addClass("btn btn-warning");
+/*level
+增加分类并调整，增加error按钮事件 --Findyou v0.8.2.3
+0:Pass    //pt none, ft hiddenRow, et hiddenRow
+1:Failed  //pt hiddenRow, ft none, et hiddenRow
+2:Error    //pt hiddenRow, ft hiddenRow, et none
+3:All     //pt none, ft none, et none
+4:Summary //all hiddenRow
+*/
+//add Error button event --Findyou v0.8.2.3
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 0 || level == 2 || level == 4 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level == 1 || level == 2 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'et') {
+            if (level == 0 || level == 1 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+//add Error button event --Findyou v0.8.2.3
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        if (!tr) {
+            tid = 'e' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+</body>
+</html>
