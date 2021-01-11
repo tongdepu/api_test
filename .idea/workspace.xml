@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57941298-9027-4186-b4cf-020bf7fb5576" name="Default" comment="" />
+    <list default="true" id="57941298-9027-4186-b4cf-020bf7fb5576" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +91,8 @@
       <file leaf-file-name="excel_readandwrite.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/excel_readandwrite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="250">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -208,14 +210,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\api_test\test" />
-      <recent name="E:\api_test\testcase" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\api_test\test" />
       <recent name="E:\api_test\runcase" />
       <recent name="E:\api_test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\api_test\test" />
+      <recent name="E:\api_test\testcase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,6 +387,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -392,7 +395,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3294893" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31630972" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.45874587" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45874587" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742814" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
@@ -642,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/excel_readandwrite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
